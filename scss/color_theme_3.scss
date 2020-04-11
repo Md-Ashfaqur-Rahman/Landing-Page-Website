@@ -1,0 +1,63 @@
+@import 'variables';
+@import 'mixin';
+.secTitle{
+	h2{
+		background: $theme3-color2;
+		@include background_gradient(-45deg, $theme3-color1, 0%, $theme3-color2, 100%);
+		-webkit-background-clip: text;
+	}
+}
+.scrollToTop{
+	span{
+		background: $theme3-color2;
+		@include background_gradient(-45deg, $theme3-color1, 0%, $theme3-color2, 100%);
+		@include transition(.7s);
+
+		&:hover{
+			background: $color_fff;
+			@include box-shadow(0, 0, 8px, 1px, $theme3-color2);
+		}
+	}
+}
+.header{
+	&.active{
+		background: $theme3-color2-rgba075;
+		@include background_gradient(-45deg, $theme3-color1-rgba075, 0%, $theme3-color2-rgba075, 100%);
+	}
+}
+
+#team{
+	.swiper-container2{
+		.eachMember{
+			.socialLink{
+				li a{
+					&:hover{
+						background: $theme3-color2;
+						@include background_gradient(-45deg, $theme3-color1, 0%, $theme3-color2, 100%);
+					}
+				}
+			}
+			&:hover .imgWraper::before{
+				background: $theme3-color2-rgba0;
+				@include background_gradient(-180deg, $theme3-color2-rgba0, 0%, $theme3-color2, 100%);
+			}
+		}
+	}
+	.teamSelect{
+		.teamBtnPrev, .teamBtnNext{
+			background: $theme3-color2;
+			@include background_gradient(-45deg, $theme3-color1, 0%, $theme3-color2, 100%);
+		}
+		
+	}
+}
+.footer{
+	.ftrTop{
+		.socialIcon a{
+			&:hover{
+				background: $theme3-color2;
+				@include background_gradient(-45deg, $theme3-color1, 0%, $theme3-color2, 100%);
+			}
+		}
+	}
+}

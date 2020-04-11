@@ -1,0 +1,91 @@
+/* line 4, ../scss/color_theme_4.scss */
+.secTitle h2 {
+  background: #FF4E50;
+  background: #3483ff;
+  background: -o-linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+  background: -ms-linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+  background: -moz-linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+  background: -webkit-linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+  background: linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+  -webkit-background-clip: text;
+}
+
+/* line 11, ../scss/color_theme_4.scss */
+.scrollToTop span {
+  background: #FF4E50;
+  background: #3483ff;
+  background: -o-linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+  background: -ms-linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+  background: -moz-linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+  background: -webkit-linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+  background: linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+  -o-transition: all 0.7s ease;
+  -ms-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+/* line 16, ../scss/color_theme_4.scss */
+.scrollToTop span:hover {
+  background: #ffffff;
+  -o-box-shadow: 0 0 8px 1px #FF4E50;
+  -ms-box-shadow: 0 0 8px 1px #FF4E50;
+  -moz-box-shadow: 0 0 8px 1px #FF4E50;
+  -webkit-box-shadow: 0 0 8px 1px #FF4E50;
+  box-shadow: 0 0 8px 1px #FF4E50;
+}
+
+/* line 23, ../scss/color_theme_4.scss */
+.header.active {
+  background: rgba(255, 78, 80, 0.75);
+  background: #3483ff;
+  background: -o-linear-gradient(-45deg, rgba(249, 212, 35, 0.75) 0%, rgba(255, 78, 80, 0.75) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(249, 212, 35, 0.75) 0%, rgba(255, 78, 80, 0.75) 100%);
+  background: -moz-linear-gradient(-45deg, rgba(249, 212, 35, 0.75) 0%, rgba(255, 78, 80, 0.75) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(249, 212, 35, 0.75) 0%, rgba(255, 78, 80, 0.75) 100%);
+  background: linear-gradient(-45deg, rgba(249, 212, 35, 0.75) 0%, rgba(255, 78, 80, 0.75) 100%);
+}
+
+/* line 34, ../scss/color_theme_4.scss */
+#team .swiper-container2 .eachMember .socialLink li a:hover {
+  background: #FF4E50;
+  background: #3483ff;
+  background: -o-linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+  background: -ms-linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+  background: -moz-linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+  background: -webkit-linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+  background: linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+}
+/* line 40, ../scss/color_theme_4.scss */
+#team .swiper-container2 .eachMember:hover .imgWraper::before {
+  background: rgba(255, 78, 80, 0);
+  background: #3483ff;
+  background: -o-linear-gradient(-180deg, rgba(255, 78, 80, 0) 0%, #FF4E50 100%);
+  background: -ms-linear-gradient(-180deg, rgba(255, 78, 80, 0) 0%, #FF4E50 100%);
+  background: -moz-linear-gradient(-180deg, rgba(255, 78, 80, 0) 0%, #FF4E50 100%);
+  background: -webkit-linear-gradient(-180deg, rgba(255, 78, 80, 0) 0%, #FF4E50 100%);
+  background: linear-gradient(-180deg, rgba(255, 78, 80, 0) 0%, #FF4E50 100%);
+}
+/* line 47, ../scss/color_theme_4.scss */
+#team .teamSelect .teamBtnPrev, #team .teamSelect .teamBtnNext {
+  background: #FF4E50;
+  background: #3483ff;
+  background: -o-linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+  background: -ms-linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+  background: -moz-linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+  background: -webkit-linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+  background: linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+}
+
+/* line 57, ../scss/color_theme_4.scss */
+.footer .ftrTop .socialIcon a:hover {
+  background: #FF4E50;
+  background: #3483ff;
+  background: -o-linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+  background: -ms-linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+  background: -moz-linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+  background: -webkit-linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+  background: linear-gradient(-45deg, #F9D423 0%, #FF4E50 100%);
+}
+
+/*# sourceMappingURL=color_theme_4.css.map */

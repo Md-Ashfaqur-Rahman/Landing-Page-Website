@@ -1,0 +1,91 @@
+/* line 4, ../scss/color_theme_2.scss */
+.secTitle h2 {
+  background: #FFC371;
+  background: #3483ff;
+  background: -o-linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+  background: -ms-linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+  background: -moz-linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+  background: -webkit-linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+  background: linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+  -webkit-background-clip: text;
+}
+
+/* line 11, ../scss/color_theme_2.scss */
+.scrollToTop span {
+  background: #FFC371;
+  background: #3483ff;
+  background: -o-linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+  background: -ms-linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+  background: -moz-linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+  background: -webkit-linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+  background: linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+  -o-transition: all 0.7s ease;
+  -ms-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+/* line 16, ../scss/color_theme_2.scss */
+.scrollToTop span:hover {
+  background: #ffffff;
+  -o-box-shadow: 0 0 8px 1px #FFC371;
+  -ms-box-shadow: 0 0 8px 1px #FFC371;
+  -moz-box-shadow: 0 0 8px 1px #FFC371;
+  -webkit-box-shadow: 0 0 8px 1px #FFC371;
+  box-shadow: 0 0 8px 1px #FFC371;
+}
+
+/* line 23, ../scss/color_theme_2.scss */
+.header.active {
+  background: rgba(255, 195, 113, 0.75);
+  background: #3483ff;
+  background: -o-linear-gradient(-45deg, rgba(255, 95, 109, 0.75) 0%, rgba(255, 195, 113, 0.75) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(255, 95, 109, 0.75) 0%, rgba(255, 195, 113, 0.75) 100%);
+  background: -moz-linear-gradient(-45deg, rgba(255, 95, 109, 0.75) 0%, rgba(255, 195, 113, 0.75) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(255, 95, 109, 0.75) 0%, rgba(255, 195, 113, 0.75) 100%);
+  background: linear-gradient(-45deg, rgba(255, 95, 109, 0.75) 0%, rgba(255, 195, 113, 0.75) 100%);
+}
+
+/* line 34, ../scss/color_theme_2.scss */
+#team .swiper-container2 .eachMember .socialLink li a:hover {
+  background: #FFC371;
+  background: #3483ff;
+  background: -o-linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+  background: -ms-linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+  background: -moz-linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+  background: -webkit-linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+  background: linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+}
+/* line 40, ../scss/color_theme_2.scss */
+#team .swiper-container2 .eachMember:hover .imgWraper::before {
+  background: rgba(255, 195, 113, 0);
+  background: #3483ff;
+  background: -o-linear-gradient(-180deg, rgba(255, 195, 113, 0) 0%, #FFC371 100%);
+  background: -ms-linear-gradient(-180deg, rgba(255, 195, 113, 0) 0%, #FFC371 100%);
+  background: -moz-linear-gradient(-180deg, rgba(255, 195, 113, 0) 0%, #FFC371 100%);
+  background: -webkit-linear-gradient(-180deg, rgba(255, 195, 113, 0) 0%, #FFC371 100%);
+  background: linear-gradient(-180deg, rgba(255, 195, 113, 0) 0%, #FFC371 100%);
+}
+/* line 47, ../scss/color_theme_2.scss */
+#team .teamSelect .teamBtnPrev, #team .teamSelect .teamBtnNext {
+  background: #FFC371;
+  background: #3483ff;
+  background: -o-linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+  background: -ms-linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+  background: -moz-linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+  background: -webkit-linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+  background: linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+}
+
+/* line 57, ../scss/color_theme_2.scss */
+.footer .ftrTop .socialIcon a:hover {
+  background: #FFC371;
+  background: #3483ff;
+  background: -o-linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+  background: -ms-linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+  background: -moz-linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+  background: -webkit-linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+  background: linear-gradient(-45deg, #FF5F6D 0%, #FFC371 100%);
+}
+
+/*# sourceMappingURL=color_theme_2.css.map */

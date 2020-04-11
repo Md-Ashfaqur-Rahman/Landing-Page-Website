@@ -1,0 +1,69 @@
+@mixin transition($time) {
+	-o-transition: all $time ease;
+	-ms-transition: all $time ease;
+	-moz-transition: all $time ease;
+	-webkit-transition: all $time ease;
+    transition: all $time ease;
+}
+@mixin transition_cmn_tow($common, $time1, $property1, $delay1, $time2, $property2, $delay2) {
+	-o-transition: $common, $time1 $property1 $delay1 ease, $time2 $property2 $delay2 ease;
+	-ms-transition: $common, $time1 $property1 $delay1 ease, $time2 $property2 $delay2 ease;
+	-moz-transition: $common, $time1 $property1 $delay1 ease, $time2 $property2 $delay2 ease;
+	-webkit-transition: $common, $time1 $property1 $delay1 ease, $time2 $property2 $delay2 ease;
+    transition: $common, $time1 $property1 $delay1 ease, $time2 $property2 $delay2 ease;
+}
+
+@mixin border-radius($radius) {
+	-o-border-radius: $radius;
+	-ms-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin transform_rotate($rotate) {
+	-o-transform: rotate($rotate);
+	-ms-transform: rotate($rotate);
+	-moz-transform: rotate($rotate);
+	-webkit-transform: rotate($rotate);
+	transform: rotate($rotate);
+}
+@mixin transform_scale($scale) {
+	-o-transform: scale($scale);
+	-ms-transform: scale($scale);
+	-moz-transform: scale($scale);
+	-webkit-transform: scale($scale);
+	transform: scale($scale);
+}
+@mixin transform_translate($x, $y){
+	-o-transform: translate($x, $y);
+	-ms-transform: translate($x, $y);
+	-moz-transform: translate($x, $y);
+	-webkit-transform: translate($x, $y);
+	transform: translate($x, $y);
+}
+
+@mixin background_gradient($rotate, $color1, $start, $color2, $end){
+    background: #3483ff;
+    background: -o-linear-gradient($rotate, $color1 $start, $color2 $end);
+	background: -ms-linear-gradient($rotate, $color1 $start, $color2 $end);
+	background: -moz-linear-gradient($rotate, $color1 $start, $color2 $end);
+	background: -webkit-linear-gradient($rotate, $color1 $start, $color2 $end);
+	background: linear-gradient($rotate, $color1 $start, $color2 $end);
+}
+
+@mixin box-shadow($x, $y, $blur, $xy, $color){
+    -o-box-shadow: $x $y $blur $xy $color;
+    -ms-box-shadow: $x $y $blur $xy $color;
+    -moz-box-shadow: $x $y $blur $xy $color;
+	-webkit-box-shadow: $x $y $blur $xy $color;
+    box-shadow: $x $y $blur $xy $color;
+}
+@mixin box-shadow_inset($x, $y, $blur, $xy, $color){
+    -o-box-shadow: inset $x $y $blur $xy $color;
+    -ms-box-shadow: inset $x $y $blur $xy $color;
+    -moz-box-shadow: inset $x $y $blur $xy $color;
+	-webkit-box-shadow: inset $x $y $blur $xy $color;
+    box-shadow: inset $x $y $blur $xy $color;
+}
+

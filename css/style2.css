@@ -1,0 +1,316 @@
+/* Scss Document */
+a {
+  color: red;
+  font-size: 20px;
+  transition: 1s;
+}
+p{
+	font-size: 14px;
+}
+form .input-group-prepend{
+	-webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+.some a{
+	font-size: 14px;
+}
+.scrollToTop {
+    position: fixed;
+    bottom: 30px;
+    right: -70px;
+    font-size: 21px;
+    z-index: 3;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    padding: 0;
+    -webkit-transform: rotate(-80deg);
+    -moz-transform: rotate(-80deg);
+    -o-transform: rotate(-80deg);
+    -ms-transform: rotate(-80deg);
+    transform: rotate(-80deg);
+    -webkit-transition: all 0.25s ease-in-out 0s;
+    -moz-transition: all 0.25s ease-in-out 0s;
+    -o-transition: all 0.25s ease-in-out 0s;
+    transition: all 0.25s ease-in-out 0s;
+}
+.scrollToTop.active{
+	right: 30px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.main__cont{
+	position: relative;
+    z-index: 2;
+    background: #fff;
+}
+.footer{
+	z-index: 0;
+}
+.circle {
+	width: 200px;
+    margin: 6px 20px 20px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+	vertical-align: top;
+}
+.circle	strong {
+	position: absolute;
+	top: 70px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	line-height: 45px;
+	font-size: 43px;
+	}
+/*==========Progress circul Bur >>>>>>>>>>>>>>>>>>>>*/
+.counterCircle, .counterCircle1, .counterCircle2, .counterCircle3, .counterCircle4 {
+	position: relative;
+	padding-top: 100%;
+}
+/*========================================*/
+/*========== Header ========== >>>>>>>>>>>*/
+/*========================================*/
+#home, #home .swiper-container{
+	height: 100vh;
+	background: rgba(0, 116, 218, 1);
+}
+#home .swiper-button-prev, #home .swiper-button-next{
+    background-color: rgba(231, 231, 231, .5);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+	opacity: 0;
+	transition: opacity 1s, left .4s, right .4s;
+}
+#home:hover .swiper-button-prev, #home:hover .swiper-button-next{
+	opacity: 1;
+}
+#home .swiper-button-prev:hover{
+	left: 0;
+}
+#home .swiper-button-next:hover{
+	right: 0;
+}
+.titleArea{
+    position: relative;
+	top: 50%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+	z-index: 1;
+}
+.mainTitle{
+    display: inline-block;
+    margin: 0 auto;
+    letter-spacing: .4vw;
+    font-size: 5.5vw;
+    z-index: 101;
+    position: relative;
+    overflow: hidden;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+}
+.mainTitle::before {
+    content: '----------------';
+    /*	font-size: 3vw;*/
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    line-height: 12vw;
+    border-width: 6px 0;
+    color: #ffffff;
+    border-style: solid;
+    left: 0;
+    -webkit-transform: translate3d(-101%, 0, 0);
+    transform: translate3d(-101%, 0, 0);
+    -webkit-transition: -webkit-transform 0.8s;
+    transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition: transform 0.8s, -webkit-transform 0.8s;
+}
+.mainTitle:hover::before {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.mainTitle span {
+    display: inline-block;
+    position: relative;
+    -webkit-transform: perspective(1000px) rotate3d(0, 1, 0, 0deg);
+    transform: perspective(1000px) rotate3d(0, 1, 0, 0deg);
+    -webkit-transition: color 0.8s, -webkit-transform 0.8s;
+    transition: color 0.8s, -webkit-transform 0.8s;
+    transition: transform 0.8s, color 0.8s;
+    transition: transform 0.8s, color 0.8s, -webkit-transform 0.8s;
+    line-height: 7vw;
+}
+.mainTitle:hover span {
+    color: black;
+    -webkit-transform: perspective(1000px) rotate3d(0, 1, 0, 360deg);
+    transform: perspective(1000px) rotate3d(0, 1, 0, 360deg);
+}
+/*========== Paralax Effect >>>>>>>>>>*/
+.landSlide{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: rgba(0, 116, 218, 0.9);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.otherSlide{
+	background-color: rgba(0, 116, 218, 0);
+}
+.parallax {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+	height: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+.layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.layer .svg, .layer .svg2 {
+    position: absolute;
+	top: 20%;
+    left: -55%;
+    overflow: visible;
+}
+.layer .svg2 {
+    top: -25%;
+	left: -60%;
+}
+
+/*========================================*/
+/*========== Team ========== >>>>>>>>>>>>>*/
+/*========================================*/
+/*
+#team .swiper-container2{
+	overflow: hidden;
+	position: relative;
+	padding-top: 15px;
+}
+.swiper-container2::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 4px;
+    transform: translate(-50%);
+    border-radius: 8px;
+    width: 360px;
+    height: 538px;
+    box-shadow: 0 0 5px 2px rgba(0,0,0,.6);
+    background: #fff;
+    z-index: 0;
+}
+*/
+.swiper-container .swiper-slide{
+	overflow: hidden;
+	max-width: 250px;
+}
+.swiper-container img{
+	width: 100%;
+}
+.eachMember .teamDtls{
+	border: 1px solid #D0D0D0;
+	border-bottom-width: 2px;
+	border-top: 0;
+}
+.eachMember .socialLink {
+    background: none;
+    position: absolute;
+    left: -65px;
+    top: 0;
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+}
+.eachMember:hover .socialLink{
+	left: 10px;
+}
+.socialLink li a {
+    color: #fff;
+    width: 45px;
+    height: 45px;
+	margin: 3px 0;
+    line-height: 45px;
+    background: #333;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+}
+.socialLink li a:hover{
+	background: #4ac4f3;
+}
+/*
+.swiper-container .teamSelect{
+	margin: 3px 0 13px;
+	bottom: 0;
+	z-index: 3;
+}
+*/
+.teamSelect .teamBtnPrev, .teamSelect .teamBtnNext{
+	width: 45px;
+    height: 45px;
+    line-height: 45px;
+	font-size: 40px;
+	border-radius: 50%;
+	cursor: pointer;
+	background: #3483ff;
+    background: -webkit-linear-gradient(-45deg, #cd0fd8 0%, #3483ff 100%);
+    background: -o-linear-gradient(-45deg, #cd0fd8 0%, #3483ff 100%);
+    background: -moz-linear-gradient(-45deg, #cd0fd8 0%, #3483ff 100%);
+    background: linear-gradient(-45deg, #cd0fd8 0%, #3483ff 100%);
+    color: #FFF;
+}
+/*========================================*/
+/*========== Progress ==========>>>>>>>>>>*/
+/*========================================*/
+#progress{
+/*	background: url(../img/dhaka.jpg) no-repeat center center / cover;*/
+}
+#progress .satisfyCnt{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.satisfyCnt h5 {
+    padding: 3vw;
+    margin-top: 20px;
+}
+/*========================================*/
+/*========== Progress ==========>>>>>>>>>>*/
+/*========================================*/
+.socialIcon a{
+	color: #9ba0a2;
+    display: block;
+    font-size: 20px;
+    width: 60px;
+    line-height: 60px;
+    height: 60px;
+    background: #25282a;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}

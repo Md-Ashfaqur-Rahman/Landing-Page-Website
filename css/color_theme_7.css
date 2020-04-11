@@ -1,0 +1,91 @@
+/* line 4, ../scss/color_theme_7.scss */
+.secTitle h2 {
+  background: #EF8E38;
+  background: #3483ff;
+  background: -o-linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+  background: -ms-linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+  background: -moz-linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+  background: -webkit-linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+  background: linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+  -webkit-background-clip: text;
+}
+
+/* line 11, ../scss/color_theme_7.scss */
+.scrollToTop span {
+  background: #EF8E38;
+  background: #3483ff;
+  background: -o-linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+  background: -ms-linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+  background: -moz-linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+  background: -webkit-linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+  background: linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+  -o-transition: all 0.7s ease;
+  -ms-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+/* line 16, ../scss/color_theme_7.scss */
+.scrollToTop span:hover {
+  background: #ffffff;
+  -o-box-shadow: 0 0 8px 1px #EF8E38;
+  -ms-box-shadow: 0 0 8px 1px #EF8E38;
+  -moz-box-shadow: 0 0 8px 1px #EF8E38;
+  -webkit-box-shadow: 0 0 8px 1px #EF8E38;
+  box-shadow: 0 0 8px 1px #EF8E38;
+}
+
+/* line 23, ../scss/color_theme_7.scss */
+.header.active {
+  background: rgba(239, 142, 56, 0.75);
+  background: #3483ff;
+  background: -o-linear-gradient(-45deg, rgba(16, 141, 199, 0.75) 0%, rgba(239, 142, 56, 0.75) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(16, 141, 199, 0.75) 0%, rgba(239, 142, 56, 0.75) 100%);
+  background: -moz-linear-gradient(-45deg, rgba(16, 141, 199, 0.75) 0%, rgba(239, 142, 56, 0.75) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(16, 141, 199, 0.75) 0%, rgba(239, 142, 56, 0.75) 100%);
+  background: linear-gradient(-45deg, rgba(16, 141, 199, 0.75) 0%, rgba(239, 142, 56, 0.75) 100%);
+}
+
+/* line 34, ../scss/color_theme_7.scss */
+#team .swiper-container2 .eachMember .socialLink li a:hover {
+  background: #EF8E38;
+  background: #3483ff;
+  background: -o-linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+  background: -ms-linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+  background: -moz-linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+  background: -webkit-linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+  background: linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+}
+/* line 40, ../scss/color_theme_7.scss */
+#team .swiper-container2 .eachMember:hover .imgWraper::before {
+  background: rgba(239, 142, 56, 0);
+  background: #3483ff;
+  background: -o-linear-gradient(-180deg, rgba(239, 142, 56, 0) 0%, #EF8E38 100%);
+  background: -ms-linear-gradient(-180deg, rgba(239, 142, 56, 0) 0%, #EF8E38 100%);
+  background: -moz-linear-gradient(-180deg, rgba(239, 142, 56, 0) 0%, #EF8E38 100%);
+  background: -webkit-linear-gradient(-180deg, rgba(239, 142, 56, 0) 0%, #EF8E38 100%);
+  background: linear-gradient(-180deg, rgba(239, 142, 56, 0) 0%, #EF8E38 100%);
+}
+/* line 47, ../scss/color_theme_7.scss */
+#team .teamSelect .teamBtnPrev, #team .teamSelect .teamBtnNext {
+  background: #EF8E38;
+  background: #3483ff;
+  background: -o-linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+  background: -ms-linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+  background: -moz-linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+  background: -webkit-linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+  background: linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+}
+
+/* line 57, ../scss/color_theme_7.scss */
+.footer .ftrTop .socialIcon a:hover {
+  background: #EF8E38;
+  background: #3483ff;
+  background: -o-linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+  background: -ms-linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+  background: -moz-linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+  background: -webkit-linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+  background: linear-gradient(-45deg, #108DC7 0%, #EF8E38 100%);
+}
+
+/*# sourceMappingURL=color_theme_7.css.map */
